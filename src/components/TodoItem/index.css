@@ -1,0 +1,23 @@
+/* Write your CSS here */
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.title {
+  outline: #000000;
+  font-size: 18px;
+}
+
+.delete {
+  color: #ff0b37;
+  background-color: #ffffff;
+  font-size: 12px;
+  border: solid 1px #ff0b37;
+  margin: 10px;
+  width: 80px;
+  border-radius: 5px;
+}
